@@ -34,7 +34,18 @@ python scripts/txt2img.py \
 ```
 
 ### Traing
-We will update the train code ASAP.
+Put images of [RSITMD](https://github.com/xiaoyuan1996/AMFMN) in `data/RSITMD/images`, and run with:
+```commandline
+python main.py \
+    -t \
+    --base configs/lammbda/RSITMD.yaml \
+    --gpus 1 \
+    --scale_lr False \
+    --num_nodes 1 \
+    --check_val_every_n_epoch 10 \
+    --finetune_from './last-pruned.ckpt'
+```
+
 
 ## Examples
 **Caption:** `Some boats drived in the sea.`
