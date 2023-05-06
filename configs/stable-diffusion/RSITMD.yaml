@@ -79,6 +79,9 @@ data:
       target: ldm.data.simple.hf_dataset_RSITMD
       params:
         name: RSITMD-captions
+        data_path: ./data/RSITMD
+        train_json_path: ./data/RSITMD/hf_train.json
+        val_json_path: ./data/RSITMD/hf_val.json
         image_transforms:
         - target: torchvision.transforms.Resize
           params:
