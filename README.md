@@ -1,9 +1,10 @@
 # Stable Diffusion for Remote Sensing Image Generation
 
-#### Author: Zhiqiang yuan @ AIRCAS,  [Send a Email](yuan_zhi_qiang@sina.cn)
+#### Author: Zhiqiang yuan @ AIR CAS,  [Send a Email](yuan_zhi_qiang@sina.cn)
 
-A simple project for text-to-image remote sensing image generation.
-We will release the code of **using text to control regions for super-large RS image generation** later.
+A simple project for text-to-image remote sensing image generation,
+and we will release the code of `using text to control regions for super-large RS image generation` later.
+Also welcome to see the project of [image-condition fake sample generation](https://github.com/xiaoyuan1996/Controllable-Fake-Sample-Generation-for-RS) in [TGRS, 2023](https://ieeexplore.ieee.org/abstract/document/10105619/).
 
 ##  Environment configuration
 
@@ -24,6 +25,8 @@ bash sample.sh
 We will update the train code ASAP.
 
 ## Examples
-**Caption:** some boats drived in the sea
+**Caption:** Some boats drived in the sea.
 ![./assets/shows1.png](./assets/shows1.png)
 
+**Caption:** A lot of cars parked in the airport.
+![./assets/shows1.png](./assets/shows2.png)
