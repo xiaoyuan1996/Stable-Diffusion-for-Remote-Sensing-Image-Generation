@@ -17,7 +17,7 @@ Follow and thanks [original training repo](https://github.com/justinpinkney/stab
 
 We used RS image-text dataset [RSITMD](https://github.com/xiaoyuan1996/AMFMN) as training data and fine-tuned stable diffusion for 10 epochs with 1 x A100 GPU.
 When the batchsize is 4, the GPU memory consumption is about 40+ Gb during training, and about 20+ Gb during sampling.
-The pretrain weights is realesed at [last-pruned.ckpt](https://github.com/xiaoyuan1996/AMFMN).
+The pretrain weights is realesed at [last-pruned.ckpt](https://drive.google.com/drive/folders/10vK3eNpIw7H3lxxZbB7NF2IZktGt95As?usp=sharing).
 
 ## Using
 
