@@ -4,6 +4,8 @@
 #### Welcome :+1:_<big>`Fork and Star`</big>_:+1:, then we'll let you know when we update
 #### -------------------------------------------------------------------------------------
 
+![./assets/MAIN.png](./assets/MAIN.gif)
+
 A simple project for `text-to-image remote sensing image generation`,
 and we will release the code of `using multiple text to control regions for super-large RS image generation` later.
 Also welcome to see the project of [image-condition fake sample generation](https://github.com/xiaoyuan1996/Controllable-Fake-Sample-Generation-for-RS) in [TGRS, 2023](https://ieeexplore.ieee.org/abstract/document/10105619/).
